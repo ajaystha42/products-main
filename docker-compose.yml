@@ -7,6 +7,6 @@ services:
       - .:/main_app
     ports:
       - 3005:3005
-    image: products_main:3.0
+    image: products_main:1.0
     container_name: products_main
     command: pnpm serve --host 0.0.0.0
